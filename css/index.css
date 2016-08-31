@@ -1,0 +1,221 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width:100%;
+    position:relative;
+    font-family:"宋体";
+    font-size:12px;
+}
+.bg{
+    background:url(../image/bg.jpg) no-repeat left top;
+    width: 100%;
+    height:1216px;
+}
+/*导航菜单*/
+.nav-caidan{
+    width:776px;
+    height:56px;
+    margin:10px auto;
+    margin-left:304px;
+}
+.content{
+    position:absolute;
+    left:240px;
+    top:600px;
+    width:934px;
+    height:414px;
+}
+footer{
+    position:absolute;
+    left:0;
+    bottom:40px;
+    width:100%;
+}
+.footer{
+    margin:0 auto;
+    width:540px;
+    height:100px;
+    margin-left:390px;
+}
+.content-left{
+    width:160px;
+    height:180px;
+    float:left;
+    padding-top:20px;
+    margin-top:220px;
+    margin-left:-5px;
+}
+.content-left p{
+    font-size:12px;
+    font-family: "宋体";
+    color:#2a271e;
+}
+/*游戏公告*/
+.game-notice{
+    width:324px;
+    height:204px;
+    position:absolute;
+    left:228px;
+    top:10px;
+}
+.list-group{
+    width:98%;
+    padding-top:5px;
+    margin:0 auto;
+    overflow:hidden;
+    list-style:square!important;
+    list-style-position:inside;
+}
+.list-group-item{
+    padding:7px 0px;
+    padding-left:15px;
+    padding-bottom: 3px;
+    border:none;
+    background-color:transparent;
+    border-bottom:1px dashed #ccc;
+    position:relative;
+}
+.ico-square{
+    display: block;
+    width:4px;
+    height:4px;
+    background:#905d48;
+    position:absolute;
+    left:2px;
+    top:14px;
+}
+.list-group-item>span{
+    display: inline-block;
+    color:#905d48;
+}
+.notice-title{
+    width:225px;
+    padding-right:5px;
+    overflow:hidden;
+}
+.notice-time{
+    overflow:hidden;
+    float:right;
+}
+/*游戏服务器*/
+.game-service{
+    width:340px;
+    height:240px;
+    float:right;
+    margin-top:-17px;
+    margin-right:-10px;
+    background-color:#a2b944;
+    border-radius:5px;
+}
+.ser-title{
+    display:block;
+    margin:9px auto;
+    padding-left:0px;
+    text-align: center;
+}
+.game-info{
+    width:310px;
+    height:90px;
+    margin:0 auto;
+    border:2px dashed #fff;
+}
+.game-info table{
+    width:100%;
+    height:100%;
+    border:1px solid #a2b944;
+    color:#fff;
+}
+.game-info table tr td{
+    width:50%;
+    text-indent: 8px;
+    background-color:#fc8a54;
+    border:2px solid #a2b944;
+}
+/*登录服务器*/
+.login-server{
+    width:310px;
+    margin:10px auto;
+    color:#fff;
+}
+.login-server>p{
+    line-height:20px;
+    margin:5px 0;
+}
+.login-server .ico-circle{
+    width:12px;
+    height:12px;
+    margin:0 7px;
+    margin-left:3px;
+    display: inline-block;
+    background-color:#65b705;
+    border-radius:50%;
+    vertical-align: middle;
+    margin-top:-2px;
+    border:1px solid #000;
+}
+.login-server a{
+    color:#fff;
+    font-weight:700;
+    text-decoration:none;
+}
+.joinQQ{
+    width:310px;
+    margin:10px auto;
+}
+.btn-qq{
+    width:100px;
+    height:23px;
+    color:#37551a!important;
+    line-height:23px;
+    margin-right:7px;
+    text-indent:26px;
+    font-weight:700;
+    display: inline-block;
+    text-decoration: none!important;
+    background:url(../image/btn.png) no-repeat left top;
+    background-size:100% 100%;
+}
+.btn-qq:hover,.btn:active,.btn:visited{
+    color:#37551a;
+    text-decoration: none;
+}
+
+/*游戏截图*/
+.game-screen{
+    width:678px;
+    height:140px;
+    position:absolute;
+    right:18px;
+    bottom:9px;
+}
+.gameImg-list{
+    width:100%;
+    height:120px;
+    margin:10px auto;
+    padding:0;
+    list-style-type: none;
+}
+.gameImg-list li{
+    width:150px;
+    padding:3px;
+    height:100%;
+    margin:0 9px;
+    float:left;
+    border:2px solid #f7c85c;
+}
+.gameImg-list li img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+/*版权信息*/
+.footer>p{
+    color:#618130;
+    text-align:center;
+    line-height:28px;
+    padding: 0;
+    margin: 0;
+}
